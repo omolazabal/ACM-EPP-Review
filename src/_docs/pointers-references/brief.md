@@ -60,7 +60,7 @@ The code above created a reference to an int called {% ihighlight c++ %}myRefere
 
 {% highlight c++ %}
 int myVariable;
-int & myReference = myVariables;
+int & myReference = myVariable;
 
 myReference = 3;
 cout << myVariable << endl;
